@@ -15,6 +15,7 @@
 		ED0F1FEC1D31605600099A2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0F1FEA1D31605600099A2A /* LaunchScreen.storyboard */; };
 		ED0F1FF71D31605600099A2A /* PokeTypesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F1FF61D31605600099A2A /* PokeTypesTests.m */; };
 		ED0F20021D31605600099A2A /* PokeTypesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0F20011D31605600099A2A /* PokeTypesUITests.m */; };
+		ED0F20111D3174D700099A2A /* TypeData.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED0F200F1D31720A00099A2A /* TypeData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		ED0F1FFD1D31605600099A2A /* PokeTypesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeTypesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0F20011D31605600099A2A /* PokeTypesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeTypesUITests.m; sourceTree = "<group>"; };
 		ED0F20031D31605600099A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0F200F1D31720A00099A2A /* TypeData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TypeData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				ED0F1FEA1D31605600099A2A /* LaunchScreen.storyboard */,
 				ED0F1FED1D31605600099A2A /* Info.plist */,
 				ED0F1FDC1D31605600099A2A /* Supporting Files */,
+				ED0F200F1D31720A00099A2A /* TypeData.plist */,
 			);
 			path = PokeTypes;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0F20111D3174D700099A2A /* TypeData.plist in Resources */,
 				ED0F1FEC1D31605600099A2A /* LaunchScreen.storyboard in Resources */,
 				ED0F1FE91D31605600099A2A /* Assets.xcassets in Resources */,
 				ED0F1FE71D31605600099A2A /* Main.storyboard in Resources */,
